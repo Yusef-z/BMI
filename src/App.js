@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Switch from "./Components/Switch"
+import MetricVImperial from "./Components/MetricVImperial"
+import Title from "./Components/Title"
+import Form from "./Components/Form"
+import { useState } from "react"
+
 
 function App() {
+  const [status, setStatus] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title></Title>
+      <MetricVImperial status = {status} statusChange = {setStatus}/>
+      <Form status = {status}></Form>
     </div>
   );
 }

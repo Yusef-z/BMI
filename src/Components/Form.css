@@ -1,0 +1,50 @@
+label {
+    font-size: 30px;
+}
+
+input {
+    width: 69px;
+    height: 34px;
+    position: relative;
+    top: -5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.weightInput {
+    margin-top: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    margin-right: 5px;
+}
+
+.submitButton {
+    margin-top: 30px;
+    width: 450px;
+    height: 45px;
+    font-size: 26px;
+    background-color: #5588aa;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.submitButton:hover {
+    background-color: #85c2eb;
+}
+
+.resultContainer {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}

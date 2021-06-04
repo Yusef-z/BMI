@@ -1,0 +1,16 @@
+.midContainer {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.midContainer > * {
+    margin-top: 4px;
+}
+
+.flexContainer {
+    display: flex;
+    width: 1219px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
